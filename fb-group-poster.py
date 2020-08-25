@@ -30,7 +30,7 @@ def main():
     emailelement.send_keys(account)
     passelement = driver.find_element(By.XPATH,'//*[@id="pass"]')
     passelement.send_keys(password)
-    loginelement = driver.find_element(By.XPATH,'//*[@id="loginbutton"]')
+    loginelement = driver.find_element(By.XPATH,'//*[@id="u_0_b"]')
     loginelement.click()
 
     # Post on each group
